@@ -16,11 +16,11 @@ Para construir e executar a imagem com o `Dockerfile` padrão:
 
 1. Construa a imagem:
    ```bash
-   docker build -t seu-user/desafio-golang .
+   docker build -t brunogsantos/fullcycle-desafio-go .
    ```
 2. Execute o container:
    ```bash
-   docker run seu-user/desafio-golang
+   docker run brunogsantos/fullcycle-desafio-go
    ```
 
 ### Com Dockerfile.scratch
@@ -29,11 +29,11 @@ Para construir e executar uma imagem mais leve usando `Dockerfile.scratch`:
 
 1. Construa a imagem:
    ```bash
-   docker build -f Dockerfile.scratch -t seu-user/desafio-golang-scratch .
+   docker build -f Dockerfile.scratch -t fullcycle-desafio-go .
    ```
 2. Execute o container:
    ```bash
-   docker run seu-user/desafio-golang-scratch
+   docker run brunogsantos/fullcycle-desafio-go
    ```
 
 ## Baixando a Imagem do Docker Hub
@@ -41,13 +41,11 @@ Para construir e executar uma imagem mais leve usando `Dockerfile.scratch`:
 Para baixar a imagem do Docker Hub:
 
 ```bash
-docker pull seu-user/desafio-golang-scratch
+docker pull brunogsantos/fullcycle-desafio-go
 ```
-
-Substitua `seu-user` pelo seu nome de usuário no Docker Hub.
 
 ## Autor
 
-[Seu Nome](Link do seu perfil no GitHub ou outra plataforma)
+Bruno Gonzaga Santos
 
 ---
