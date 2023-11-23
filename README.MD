@@ -2,6 +2,8 @@
 
 Este projeto demonstra a criação de uma imagem Docker leve para executar um programa simples em Go que imprime "Full Cycle Rocks!!".
 
+Link para Docker Hub: https://hub.docker.com/repository/docker/brunogsantos/fullcycle-desafio-go/general
+
 ## Estrutura do Projeto
 
 - `www/hello.go`: O arquivo fonte em Go que contém o programa a ser executado.
